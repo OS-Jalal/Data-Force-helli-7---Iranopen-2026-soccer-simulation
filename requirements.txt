@@ -1,0 +1,3 @@
+# Install with the same Python interpreter configured in Webots.
+# The original competition environment did not include a dependency lockfile.
+numpy

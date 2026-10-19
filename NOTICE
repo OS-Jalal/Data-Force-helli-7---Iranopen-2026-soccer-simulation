@@ -1,0 +1,24 @@
+Data Force helli 7 — Iran Open RoboCup 2026
+
+Original team contributions:
+Copyright 2026 MohammedHossein Ghaffary, Alireza Bashiri vasegh,
+Sobhan Barzegar, and Mohammadhasan Heydarifar.
+All four members contributed equally and directly to the team code.
+Mentor: Ali Asghar Jalalieh (علی اصغر جلالیه).
+School: Allameh Helli 7 High School (SAMPAD), Iran.
+
+This distribution includes simulator interface/entry-point code based on:
+RoboCupJunior RCJ Soccer Simulator
+https://github.com/robocup-junior/rcj-soccersim
+Licensed under the Apache License, Version 2.0.
+Copyright in upstream contributions remains with its original contributors.
+
+rcj_soccer_team_yellow/rcj_soccer_robot.py closely follows the upstream
+controllers/rcj_soccer_team_yellow/rcj_soccer_robot.py interface. The supplied
+snapshot differs in a heading comment; this package preserves that snapshot.
+The controller entry point is adapted from the official sample to dispatch
+all three players to MyRobot instead of separate MyRobot1/2/3 classes.
+
+The full simulator, referee, worlds, and graphical assets are not bundled.
+No endorsement by RoboCupJunior, RoboCup Iran Open, SAMPAD, or Cyberbotics
+is asserted. This notice does not modify the Apache License terms.
